@@ -321,6 +321,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 70px;
 }
 
 .about__logo-image {
@@ -334,16 +335,17 @@
     font-size: 40px;
     text-transform: uppercase;
     padding-top: 90px;
+    gap: 24px;
     
 }
 
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 24px;
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .footer {
@@ -396,7 +398,7 @@
     display: flex;
     justify-content: end;
     gap: 48px;
-    margin-left: 0;
+    margin-left: 4px;
     padding: 0;
 
 }
