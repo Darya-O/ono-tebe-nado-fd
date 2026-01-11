@@ -197,12 +197,11 @@
   justify-content: space-between;
   position: relative;
   width: 334px;
-  height: 596px;
+  min-height: 596px;
   background-position: center;
   padding: 48px 40px;
   margin-top: 27px;
-  backgroundgi-size: cover;
-  
+  background-size: cover;
 }
 
 .card_type_film {
@@ -211,7 +210,6 @@
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  
 }
 
 .card_type_picture {
